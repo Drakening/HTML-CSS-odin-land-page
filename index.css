@@ -1,0 +1,130 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+  background-color: #1f2937;
+  color: white;
+  padding: 10px 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.navigation-links {
+  padding: 10px 60px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 0 20px;
+}
+a {
+  color: white;
+}
+
+.main {
+  padding: 50px 200px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-main {
+  padding: 10px;
+  display: flex;
+  content: normal;
+  width: 500px;
+  flex-direction: column;
+}
+
+.main-pic {
+  width: 500px;
+  height: 300px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.card {
+  margin: 30px;
+}
+
+.card-image {
+  width: 199px;
+  height: 200px;
+  border-radius: 10%
+}
+
+.quote {
+  background-color: #e5e7ef;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+.quote1 {
+  width: 800px;
+}
+
+.cta-panel {
+  background-color: #1f2937;
+  border-radius: 15px;
+  border:2px solid ;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  padding: 40px;
+  margin: 100px 100px 100px 300px;
+}
+.cta-big {
+  font-size: 30px;
+}
+.sign-btn {
+  padding: 10px 30px 10 30px;
+  border-color: white;
+  border-radius: 10%;
+  background-color: skyblue;
+}
+.footer {
+  background-color:  #1f2937;
+  font-size: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
